@@ -1,0 +1,25 @@
+.items_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 100%;
+  max-width: 1024px;
+  padding: 16px;
+
+  .btn__item {
+    background-color: transparent;
+    padding: 0px 8px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: 160px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    box-shadow: 0px 0px 3px black;
+    width: 100%;
+
+    &:hover {
+      background-color: cornflowerblue;
+      color: white;
+    }
+  }
+}
